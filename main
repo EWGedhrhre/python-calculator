@@ -85,5 +85,5 @@ class TestCalculator(unittest.TestCase):
         # 这里可以添加模拟用户输入的测试
         pass
 
-if __name__ == "__main__":
+if __name__ == "__main__"：
     unittest.main()
