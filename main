@@ -19,3 +19,13 @@ if __name__ == "__main__":
         print("Result:", subtract(num1, num2))
     else:
         print("Invalid input")
+##修改 `calculator.py`，添加乘除法功能：
+
+```python
+def multiply(a, b):
+    return a * b
+
+def divide(a, b):
+    if b == 0:
+        raise ValueError("Cannot divide by zero!")
+    return a / b
